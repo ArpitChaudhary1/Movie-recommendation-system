@@ -1,4 +1,5 @@
 # Movie recommendation system (User-Based Collaborative Filtering)
+
 ## Overview
 It implements a collaborative filtering recommendation based on users, using MovieLens 100K Dataset.
 The system recommends movies for a target user based on the preferences of similar users. The similarity is computed using cosine similarity.
@@ -12,4 +13,19 @@ The system recommends movies for a target user based on the preferences of simil
 3. Selects the top N users most similar to the target user.
 4. Predicts ratings for movies the target user has not rated using a weighted average of similar users’ ratings.
 5. Returns the top M recommended movies with predicted ratings.
+
+## Technologies Used
+Python
+Pandas
+NumPy
+Scikit-learn
+Cosine Similarity
+MovieLens 100K Dataset
+
+## Key Concepts Demonstrated
+Collaborative Filtering
+Sparse Matrix Handling
+Cosine Similarity
+Weighted Rating Prediction
+Recommendation Ranking
 
