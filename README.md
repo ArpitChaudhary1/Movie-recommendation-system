@@ -37,7 +37,7 @@ The system recommends movies for a target user based on the preferences of simil
 ```
 ## How to Run
 1. Clone the repository
-2. Place MovieLens dataset files inside the ```bash dataset/``` folder
+2. Place MovieLens dataset files inside the ```dataset/``` folder
 3.Run:
 ```bash
 python test.py
