@@ -35,4 +35,14 @@ The system recommends movies for a target user based on the preferences of simil
  ('Fargo (1996)', 4.8),
  ('Shawshank Redemption, The (1994)', 4.7)]
 ```
-
+## How to Run
+1. Clone the repository
+2. Place MovieLens dataset files inside the ```bash dataset/``` folder
+3.Run:
+```bash
+python test.py
+```
+4. Enter:
+  - Target user ID
+  - Number of similar users
+  - Number of recommendations
