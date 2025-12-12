@@ -15,17 +15,24 @@ The system recommends movies for a target user based on the preferences of simil
 5. Returns the top M recommended movies with predicted ratings.
 
 ## Technologies Used
-Python
-Pandas
-NumPy
-Scikit-learn
-Cosine Similarity
-MovieLens 100K Dataset
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Cosine Similarity
+- MovieLens 100K Dataset
 
 ## Key Concepts Demonstrated
-Collaborative Filtering
-Sparse Matrix Handling
-Cosine Similarity
-Weighted Rating Prediction
-Recommendation Ranking
+- Collaborative Filtering
+- Sparse Matrix Handling
+- Cosine Similarity
+- Weighted Rating Prediction
+- Recommendation Ranking
+
+## Example Output
+```bash
+[('Toy Story (1995)', 5.0),
+ ('Fargo (1996)', 4.8),
+ ('Shawshank Redemption, The (1994)', 4.7)]
+```
 
